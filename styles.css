@@ -1,5 +1,7 @@
 body {
     background-color: #c7f9cc;
+    margin-top: 135px;
+    margin-bottom: 30;
 }
 header {
     display: flex;
@@ -9,12 +11,13 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    margin-bottom: 50px;
+    top: 0;
      
 }
 #logo {
     display: flex;
     height: 20vh;
+    text-align: center;
 }
 
 nav {
@@ -27,31 +30,38 @@ nav {
     font-weight: bold;
     
 }
+p {
+    text-align: center;
+    font-size: 2.5vh;
+}
 .navItem {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #38A385;
     margin-top: 1vh;
     margin-bottom: 1vh;
     margin-left: 1vh;
     margin-right: 1vh;
-    border-radius: .5cap;
-    width: 15vh;
-    height: 3vh;
+    border-radius: 50cap;
+    width: 18vh;
+    height: 18vh;
     border: solid 2px white;
     border-color: white;
 }
 
 div {
     display: flex;
+    flex-direction: column;
     width: auto;
     height: 80vh;
     justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 3vh;
     color: #c7f9cc;
-    border: #38A385;
+    border: solid 2px white;
     background-color: #38A385;
     margin-top: 5vh;
     margin-left: 5vh;
@@ -59,6 +69,12 @@ div {
     border-radius: 3cap;
     
 
+}
+#introduction {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    height: 90vh;
 }
 
 a {
@@ -73,6 +89,13 @@ a:hover {
 }
 #PartOfPage {
     width: 50vw;
+}
+#footer {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 /* 38A385 */
