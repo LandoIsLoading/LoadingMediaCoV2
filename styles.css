@@ -32,7 +32,7 @@ nav {
 }
 p {
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 3vh;
 }
 .navItem {
     display: flex;
@@ -54,12 +54,12 @@ div {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 80vh;
+    height: auto;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 3vh;
+    font-size: 4vh;
     color: #c7f9cc;
     border: solid 2px white;
     background-color: #38A385;
@@ -73,13 +73,14 @@ div {
 #introduction {
     display: flex;
     justify-content: center;
-    font-size: medium;
-    height: 90vh;
+    font-size: 1.3em;
+    height: auto;
 }
 
 a {
     color: #c7f9cc;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover {
@@ -97,5 +98,35 @@ a:hover {
     justify-content: space-around;
 
 }
+#showcaseDiv {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    overflow: hidden;
+    border-radius: 1cap;
+}
+#showcaseImage {
+    width: 70vw;
+    border: solid white 5px;
+    border-radius: 3cap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+#showcaseImage img {
+    object-fit: contain;
+}
+#showcase {
+    display: flex;
+    align-content: center;
+    height: 40vh;
+    font-size: 50px;
+}
+#faq {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* 38A385 */
